@@ -83,20 +83,6 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "id": "bbb5",
-      "title": "Test Job 1",
-      "type": "Part-Time",
-      "location": "Test Location",
-      "description": "This is a Test",
-      "salary": "$90K - 100K",
-      "company": {
-        "name": "Test Company Name",
-        "description": "This is a test company Description",
-        "contactEmail": "test@test.com",
-        "contactPhone": "1234567890"
-      }
     }
   ]
 }
