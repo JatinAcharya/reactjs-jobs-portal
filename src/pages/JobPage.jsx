@@ -4,6 +4,7 @@ import { useParams, useLoaderData, useNavigate } from "react-router-dom";
 import Spinner from "../components/Spinner";
 import { FaArrowLeft, FaMapMarker } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
 
 const JobPage = ({ deleteJob }) => {
   // const [job, setJob] = useState(null);
@@ -21,6 +22,7 @@ const JobPage = ({ deleteJob }) => {
       return;
     }
     deleteJob(jobId);
+    toast.success("Job deleted successfully!");
     navigate("/jobs");
   };
   //fetching using useEffect
